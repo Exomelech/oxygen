@@ -1,0 +1,18 @@
+.meter {
+  width: 100%;
+}
+
+.meter__bar {
+  width: 100%;
+  // background-color: yellowgreen;
+  background: $grey;
+  &::-moz-meter-bar {
+    background: $black3;
+  }
+  &::-webkit-meter-bar {
+    background: $grey;
+  }
+  &::-webkit-meter-optimum-value {
+    background: $black3;
+  }
+}

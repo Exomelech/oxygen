@@ -1,0 +1,24 @@
+.magic {
+  height: 840px;
+  display: flex;
+  flex-direction: row;
+}
+
+.magic__left {
+  flex-shrink: 0;
+}
+
+.magic__right {
+  padding-top: 101px;
+  box-sizing: border-box;
+  margin-left: -5px;
+}
+
+.magic__title {
+  line-height: 75px;
+  // margin-left: -5px;
+}
+
+.magic__description {
+  margin-top: 85px;
+}

@@ -24,3 +24,12 @@
     letter-spacing: -1.65px;
   }
 }
+
+.h6 {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 700;
+  &--spacing {
+    letter-spacing: 4.29px;
+  }
+}

@@ -1,7 +1,33 @@
 .expertise {
   height: 877px;
+  padding-top: 137px;
 }
 
 .expertise__title {
   margin-top: 9px;
+}
+
+.expertise__description {
+  height: 137px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+}
+
+.expertise__diagramm-box {
+  width: 370px;
+  flex-shrink: 0;
+}
+
+.expertise__text {
+  padding-left: 30px;
+  padding-top: 5px;
+  line-height: 24px;
+}
+
+.expertise__cards {
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  grid-column-gap: 27px;
 }
