@@ -1,0 +1,20 @@
+.about {
+  height: 491px;
+  display: flex;
+  flex-direction: row;
+  // align-items: center;
+  // align-content: center;
+  padding-top: 138px;
+  background-color: $white2;
+  color: $black2;
+}
+
+.about__title {
+  min-width: 300px;
+  margin-right: 100px;
+  padding-top: 16px;
+}
+
+.about__description {
+  line-height: 24px;
+}

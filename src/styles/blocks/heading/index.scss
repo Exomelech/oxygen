@@ -1,0 +1,26 @@
+.h1 {
+  font-family: 'Montserrat';
+  font-size: 100px;
+  font-weight: 700;
+  &--white {
+    color: white;
+  }
+}
+
+.h2 {
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 700;
+  &--spacing {
+    letter-spacing: -1.65px;
+  }
+}
+
+.h4 {
+  font-family: 'Montserrat';
+  font-size: 48px;
+  font-weight: 700;
+  &--spacing {
+    letter-spacing: -1.65px;
+  }
+}

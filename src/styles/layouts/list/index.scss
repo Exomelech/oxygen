@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+}
+
+.list__item {
+}
+
+.list__item--nav {
+  margin-right: 50px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  &:last-child {
+    margin-right: 0;
+  }
+}

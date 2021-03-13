@@ -1,0 +1,36 @@
+.header {
+  height: 752px;
+  background-image: url('/public/images/header-bg.png');
+}
+
+.header__top {
+  height: 94px;
+  padding-left: 52px;
+  padding-right: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header__content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding-top: 217px;
+}
+
+.header__text {
+  margin-top: 24px;
+  font-weight: 700;
+  letter-spacing: 2.74px;
+  color: $yellow;
+}
+
+.header__decor-mouse {
+  margin-top: 163px;
+}

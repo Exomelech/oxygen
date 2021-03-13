@@ -1,0 +1,19 @@
+.nav {
+
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: $black;
+  // &:active {
+  //   border-bottom: solid 10px black;
+  // }
+  // &:target {
+  //   border-bottom: solid 10px black;
+  // }
+}
