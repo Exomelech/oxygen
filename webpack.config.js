@@ -12,7 +12,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   module: {
-    rules: [{
+    rules: [
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      }, {
         test: /\.scss$/,
         use: [
           "style-loader",
@@ -45,10 +49,5 @@ module.exports = {
           outputPath: 'images/'
         }
     }]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html' 
-    }),
-  ]
+  }
 };
