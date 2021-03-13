@@ -28,11 +28,23 @@ module.exports = {
           }
         ]
       }, {
-        test: /\.ttf$/,
-        loader: "file-loader",
-        include: path.resolve(__dirname, "node_modules/react-native-vector-icons")
-      }
-    ]
+      test: /\.ttf$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/'
+            }
+          }
+        ]
+      }, {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'images/'
+        }
+    }]
   },
   plugins: [
     new HtmlWebpackPlugin({
