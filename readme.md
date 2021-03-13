@@ -1,3 +1,3 @@
 ## Тестовый макет с использованием БЭМ методологии
 
-[Ссылка на макет](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkpTS1ZMYlpIamhGUzlVbjV1UE1Ud09NSFdhUXxBQ3Jtc0tuMXRNSlJucUJBM2RwUVA1cklOVUtJX0J5RC05cmsyY1VBRnhKYkNrM3VHaGpnTGM1S2FzVVJmekFoMlVGdHRKeEFqUDdzcXI5YmF2MWpTOUQzSkt6RkdrdXR0LXd3Yjg0MG9EVWhWeHdpeVdNdmFmbw&q=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1h2TtRjsmmDVYLbET8cN5D71MX28zp8gu%2Fview%3Fusp%3Dsharing "Ссылка на макет")
+[Ссылка на макет](https://drive.google.com/file/d/1h2TtRjsmmDVYLbET8cN5D71MX28zp8gu/view "Ссылка на макет")

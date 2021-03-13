@@ -16,6 +16,9 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: 'html-loader',
+        options: {
+          sources: false,
+        }
       }, {
         test: /\.scss$/,
         use: [
@@ -49,5 +52,10 @@ module.exports = {
           outputPath: 'images/'
         }
     }]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html' 
+    }),
+  ]
 };
