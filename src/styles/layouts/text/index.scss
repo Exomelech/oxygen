@@ -1,13 +1,44 @@
 .text {
   font-family: Montserrat;
   font-size: 16px;
-}
-
-.text__opensans {
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 300;
+  &--spacing1 {
+    letter-spacing: 1px;
+  }
   &--line {
     line-height: 24px;
   }
+  &--small {
+    font-size: 12px;
+  }
+  &--big {
+    font-size: 18px;
+  }
+  &--medium-small {
+    font-size: 14px;
+  }
+  &--Merriweather {
+    font-family: "Merriweather";
+  }
+}
+
+.text__opensans {
+  @extend .text;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.text--gallery {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.text--testimonial {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  line-height: 36px;
 }

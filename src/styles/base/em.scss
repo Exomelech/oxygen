@@ -1,0 +1,7 @@
+$base_w: 1440px;
+$base_h: 900;
+
+@function em($size){
+  $result: #{ 100vw/$base_w * $size }px;
+  @return $result;
+}

@@ -1,0 +1,33 @@
+.gallery {
+  display: flex;
+  height: 100%;
+  flex-flow: column wrap;
+  margin-right: -22px;
+  margin-bottom: -22px;
+  box-sizing: border-box;
+}
+
+.gallery__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white2;
+  margin-right: 22px;
+  margin-bottom: 22px;
+  color: white;
+  box-sizing: border-box;
+  &--active {
+    background-color: $black2alpha;
+    border: 12px solid $greyAlpha;
+  }
+}
+
+.gallery__title {
+  width: min-content;
+  margin: 0;
+}
+
+.gallery__desc {
+  width: min-content;
+  margin: 0;
+}

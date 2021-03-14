@@ -15,3 +15,14 @@
     margin-right: 0;
   }
 }
+
+.list__item--portfolio {
+  margin-right: 42px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 2px;
+  &:last-child {
+    margin-right: 0;
+  }
+}

@@ -15,3 +15,16 @@
   src: url('/public/fonts/OpenSans/OpenSans-Light.ttf');
   font-weight: 300;
 }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('/public/fonts/OpenSans/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url('/public/fonts/Merriweather/Merriweather-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}

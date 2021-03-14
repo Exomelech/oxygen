@@ -7,12 +7,23 @@
   }
 }
 
+$w: 60;
+
 .h2 {
   font-family: 'Montserrat';
   font-size: 60px;
   font-weight: 700;
+  color: $black;
   &--spacing {
     letter-spacing: -1.65px;
+  }
+  &--decor {
+    background-color: $yellow;
+    position: relative;
+    height: 4px;
+    margin-bottom: -4px;
+    width: #{$w}px;
+    top: 17px;
   }
 }
 
@@ -20,8 +31,16 @@
   font-family: 'Montserrat';
   font-size: 48px;
   font-weight: 700;
+  color: $black2;
   &--spacing {
     letter-spacing: -1.65px;
+  }
+  &--decor {
+    background-color: $yellow;
+    position: relative;
+    height: 4px;
+    width: 60px;
+    top: 23px;
   }
 }
 
@@ -29,7 +48,33 @@
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 700;
+  color: $black2;
   &--spacing {
     letter-spacing: 4.29px;
   }
+  &--spacing1-2 {
+    letter-spacing: 1.2px;
+  }
+  &--spacing1-4 {
+    letter-spacing: 1.4px;
+  }
+}
+
+.h6--Montserrat {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.h6--OpenSans {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.h6--gallery {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
 }
